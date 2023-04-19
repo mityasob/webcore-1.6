@@ -1,0 +1,9 @@
+.tablet-text {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+}
