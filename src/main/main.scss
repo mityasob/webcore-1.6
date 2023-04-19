@@ -1,0 +1,27 @@
+.main {
+  box-shadow: 0 -1px $mainBoxShadow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: $bgGray;
+  min-width: 320px;
+  min-height: 498px;
+
+  @media (min-width: 768px) {
+    box-shadow: 0 -1px $mainBoxShadow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 408px;
+    background-color: $bgGray;
+  }
+
+  @media (min-width: 1440px) {
+    box-shadow: 0 -1px $mainBoxShadow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 537px;
+    background-color: $bgGray;
+  }
+}

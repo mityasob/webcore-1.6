@@ -1,0 +1,17 @@
+.price-list-container {
+  display: none;
+  width: 720px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-radius: 6px;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+  @media (min-width: 1440px) {
+  	width: 1056px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}

@@ -1,0 +1,22 @@
+.main-title {
+  font-family: "TT Lakes Bold", "Arial", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+  color: $blackColorText;
+  margin: 0;
+
+  @media (min-width: 1440px) {
+    align-self: flex-start;
+    font-family: "TT Lakes Bold", "Arial", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    color: $blackColorText;
+    margin-left: 32px;
+  }
+}

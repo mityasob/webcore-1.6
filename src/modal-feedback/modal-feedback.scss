@@ -1,0 +1,14 @@
+.modal-feedback {
+  transition-property: left;
+  transition-duration: 1s;
+
+  & .order-service {
+    top: 569px;
+    right: 16px;
+
+    @media (min-width: 768px) {
+      right: 32px;
+      top: 493px
+    }
+  }
+}

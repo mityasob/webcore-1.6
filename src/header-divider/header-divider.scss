@@ -1,0 +1,13 @@
+.header-divider {
+  width: 2px;
+  height: 32px;
+  background-color: $buttonBorder;
+
+  &.tablet-header-divider {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: flex;
+    }
+  }
+}

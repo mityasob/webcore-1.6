@@ -1,0 +1,15 @@
+.modal-overlay {
+  width: 0;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 1s;
+  background-color: $bgWhite;
+
+  @media (min-width: 768px) {
+    width: 328px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 1000px;
+  }
+}

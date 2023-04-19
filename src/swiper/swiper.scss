@@ -1,0 +1,7 @@
+.swiper {
+  width: 320px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

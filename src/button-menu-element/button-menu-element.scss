@@ -1,0 +1,203 @@
+.button-menu-element {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: $bgButton;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+
+  &:hover,
+  &:active {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: $bgButton;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  &__burger-top {
+    width: 18px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: $bgWhite;
+    margin-left: 11px;
+    margin-top: 12px;
+  }
+
+  &__burger-middle {
+    width: 10px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: $bgWhite;
+    margin-left: 11px;
+    margin-top: 5px;
+  }
+
+  &__burger-bottom {
+    width: 14px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: $bgWhite;
+    margin-left: 11px;
+    margin-top: 5px;
+  }
+
+  &.tablet-header-icon {
+    display: none;
+
+    @media (min-width: 768px) {
+      display: flex;
+    }
+  }
+
+  &__phone-icon {
+    background-image: url("../img/phone.png");
+    width: 18px;
+    height: 18px;
+    margin-left: 11px;
+    margin-top: 11px;
+  }
+
+  &__chat-icon {
+    background-image: url("../img/chat.png");
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 11px;
+  }
+
+  &__profile-head-icon {
+    width: 9px;
+    height: 9px;
+    margin-left: 15.5px;
+    margin-top: 10px;
+    background-color: $bgWhite;
+    border-radius: 50%;
+  }
+
+  &__profile-body-icon {
+    width: 20px;
+    height: 8px;
+    margin-left: 10px;
+    margin-top: 1px;
+    background-color: $bgWhite;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  &__repair-icon {
+    background-image: url("../img/repair.png");
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  &__status-icon {
+    background-image: url("../img/status.png");
+    width: 16px;
+    height: 20px;
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+
+  &.desktop-button-menu-element {
+
+    &:nth-last-child(2) {
+      margin-right: 160px;
+
+      &::before {
+        content: "Оставить заявку";
+        margin-left: -133px;
+        margin-top: 8px;
+        font-family: "TT Lakes Medium", "Arial", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        letter-spacing: -0.2px;
+        color: $blackColorText;
+        text-decoration: none;
+      }
+    }
+
+    &:last-child {
+      margin-right: 30px;
+    }
+
+    &::before {
+      content: "Статус ремонта";
+      margin-left: -127px;
+      margin-top: 8px;
+      font-family: "TT Lakes Medium", "Arial", sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: right;
+      letter-spacing: -0.2px;
+      color: $blackColorText;
+      text-decoration: none;
+    }
+
+    &>div {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  &__cross-stick:first-child {
+    position: absolute;
+    top: 19px;
+    left: 9px;
+    width: 22px;
+    height: 2px;
+    background: $bgWhite;
+    border-radius: 1px;
+    transform: rotate(45deg);
+  }
+
+  &__cross-stick:last-child {
+    position: absolute;
+    top: 19px;
+    left: 9px;
+    width: 22px;
+    height: 2px;
+    background-color: $bgWhite;
+    border-radius: 1px;
+    transform: rotate(-45deg);
+  }
+
+  &__glass-outer-round {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 13px;
+    height: 13px;
+    background-color: $bgWhite;
+    border-radius: 50%;
+  }
+
+  &__glass-inner-round {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 9px;
+    height: 9px;
+    background-color: #FF3E79;
+    border-radius: 50%;
+  }
+
+  &__glass-stick {
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    width: 8px;
+    height: 2px;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    transform: rotate(45deg);
+  }
+}

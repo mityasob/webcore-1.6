@@ -1,0 +1,10 @@
+.header-logo {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+
+  &:hover,
+  &:active {
+    opacity: 0.5;
+  }
+}

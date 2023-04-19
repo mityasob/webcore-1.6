@@ -1,0 +1,38 @@
+.form-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  min-height: 676px;
+  padding: 24px 16px 0 16px;
+  background-color: $bgWhite;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+  transition-property: opacity;
+  transition-duration: 1s;
+  opacity: 0;
+
+  @media(min-width: 768px) {
+    width: 440px;
+    height: 100%;
+    padding: 0 32px 0 32px;
+
+    &>.button-menu-element {
+      transform: translate(0, 30px);
+      transition-property: transform;
+      transition-duration: 1s;
+    }
+  }
+
+  & .order-service {
+    width: 136px;
+
+    &>.brand-circle-button {
+      box-sizing: border-box;
+      transform: translate(90px, -32px) scale(0.6);
+    }
+
+    &__title {
+      margin-left: 8px;
+    }
+  }
+}

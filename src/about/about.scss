@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 208px;
+  }
+
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 307px;
+  }
+}

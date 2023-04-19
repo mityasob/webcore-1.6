@@ -1,0 +1,12 @@
+.commercial-order {
+  background-color: $bgGray;
+  padding: 0 16px;
+
+  @media (min-width: 768px) {
+  	padding-left: 24px;
+  }
+
+  @media (min-width: 1440px) {
+  	padding-left: 32px;
+  }
+}
