@@ -1,0 +1,21 @@
+.telephone {
+  margin-top: 12px;
+  margin-left: 8.1%;
+  height: 32px;
+
+  &__telephone-link {
+    font-family: "TT Lakes Medium", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: $blackColorText;
+    transition-property: color;
+    transition-duration: 0.5s;
+
+    &:hover,
+    &:active {
+      color: $grayColorText;
+    }
+  }
+}

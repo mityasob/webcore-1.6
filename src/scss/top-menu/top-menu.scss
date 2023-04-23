@@ -1,0 +1,23 @@
+.top-menu {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  align-items: center;
+  margin-left: 7.5%;
+
+  &>.menu-element:first-child {
+    margin-right: 5.4%;
+
+    @media (min-width: 1440px) {
+      display: none;
+    }
+  }
+
+  &>.menu-element:last-child {
+    margin-left: 25%;
+
+    @media (min-width: 1440px) {
+      margin-left: 120px;
+    }
+  }
+}

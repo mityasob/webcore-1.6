@@ -1,0 +1,23 @@
+.swiper3 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: $bgGray;
+  padding-top: 16px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+
+  &>.swiper-wrapper {
+    margin-left: 8px;
+  }
+
+  &>.swiper-pagination {
+    top: 232px;
+  }
+
+  &>.fading-right {
+    height: 216px;
+  }
+}

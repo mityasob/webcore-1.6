@@ -1,0 +1,20 @@
+.swiper2 {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: $bgGray;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+
+  &>.swiper-pagination {
+    top: 192px;
+  }
+
+  &>.fading-right {
+    height: 176px;
+  }
+}
