@@ -1,0 +1,27 @@
+.expand-icon {
+  margin-right: 16px;
+
+  &__expand-arrow {
+    width: 6px;
+    height: 6px;
+    border-left: 2px solid $bgHighlight;
+    border-bottom: 2px solid $bgHighlight;
+    border-radius: 1px;
+  }
+
+  &__expand-arrow--to-top:first-child {
+    transform: translate(0, 5px) rotate(135deg);
+  }
+
+  &__expand-arrow--to-top:last-child {
+    transform: translate(0, 5px) rotate(135deg);
+  }
+
+  &__expand-arrow--to-bottom:first-child {
+    transform: translate(0, 5px) rotate(-45deg);
+  }
+
+  &__expand-arrow--to-bottom:last-child {
+    transform: translate(0, 5px) rotate(-45deg);
+  }
+}

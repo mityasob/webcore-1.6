@@ -1,0 +1,42 @@
+.order-service {
+  position: absolute;
+  
+  width: 119px;
+  height: 32px;
+  background-color: $bgButton;
+  border-radius: 16px;
+  text-align: left;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+
+  &:hover,
+  &:active {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  &__title {
+    display: inline-block;
+    padding-left: 12px;
+    padding-top: 4px;
+    font-family: "TT Lakes Regular", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    color: $bgWhite;
+  }
+
+  &>.brand-circle-button {
+    box-sizing: border-box;
+    transform: translate(80px, -32px) scale(0.6);
+  }
+
+  & .brand-circle-button__button-arrow--top-stick {
+    background-color: $bgWhite;
+  }
+
+  & .brand-circle-button__button-arrow--bottom-stick {
+    background-color: $bgWhite;
+  }
+}

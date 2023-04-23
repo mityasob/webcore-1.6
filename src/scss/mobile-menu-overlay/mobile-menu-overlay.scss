@@ -1,0 +1,11 @@
+.mobile-menu-overlay {
+  position: fixed;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: $bgWhite;
+  opacity: 0;
+  transition-property: left width opacity;
+  transition-duration: 1s;
+  z-index: 20;
+}

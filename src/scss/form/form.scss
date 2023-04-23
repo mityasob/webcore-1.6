@@ -1,0 +1,29 @@
+.form {
+
+  &>input,
+  &>textarea {
+    width: 100%;
+    border: 1px solid $buttonBorder;
+    border-radius: 8px;
+    padding-left: 16px;
+    font-family: "TT Lakes Medium", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $blackColorText;
+
+    &::placeholder {
+      color: $bulletsHover;
+    }
+  }
+
+  &>input {
+  	height: 48px;
+  }
+
+  &>textarea {
+  	height: 118px;
+  	padding-top: 12px;
+  }
+}

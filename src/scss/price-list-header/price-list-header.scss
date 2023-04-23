@@ -1,0 +1,26 @@
+.price-list-header {
+  display: flex;
+
+  &>h3 {
+    margin-top: 31px;
+    margin-bottom: 16px;
+
+    &:first-child {
+      width: 50.5%;
+      padding-left: 16px;
+
+      @media (min-width: 1440px) {
+      	width: 46.8%;
+      	padding-left: 24px;
+      }
+    }
+
+    &:nth-child(2) {
+      width: 12.5%;
+
+      @media (min-width: 1440px) {
+      	width: 21.5%;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.language {
+  margin-bottom: 32px;;
+  margin-left: 8.1%;
+  height: 24px;
+
+  &__language-link {
+    font-family: "TT Lakes Regular", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $blackColorText;
+    transition-property: color;
+    transition-duration: 0.5s;
+
+    &:hover,
+    &:active {
+      color: $grayColorText;
+    }
+  }
+}

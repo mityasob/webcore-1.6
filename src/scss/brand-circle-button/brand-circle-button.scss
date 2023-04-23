@@ -1,0 +1,23 @@
+.brand-circle-button {
+  margin-right: 16px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid $bgButton;
+  border-radius: 20px;
+
+  &__button-arrow--top-stick {
+    width: 10px;
+    height: 2px;
+    background-color: $bgButton;
+    border-radius: 1px;
+    transform: translate(14px, 14px) rotate(45deg);
+  }
+
+  &__button-arrow--bottom-stick {
+    width: 10px;
+    height: 2px;
+    background-color: $bgButton;
+    border-radius: 1px;
+    transform: translate(14px, 18px) rotate(-45deg);
+  }
+}

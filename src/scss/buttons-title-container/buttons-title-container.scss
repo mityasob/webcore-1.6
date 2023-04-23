@@ -1,0 +1,8 @@
+.buttons-title-container {
+  display: none;
+
+  @media (min-width: 1440px) {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

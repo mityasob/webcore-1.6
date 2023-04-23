@@ -1,0 +1,43 @@
+.brands-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  @media (min-width: 944px) {
+    padding-left: 112px;
+    padding-right: 112px;
+  }
+
+  @media (min-width: 1120px) {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  @media (min-width: 1296px) {
+    padding-left: 288px;
+    padding-right: 288px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media (min-width: 1584px) {
+    padding-left: 104px;
+    padding-right: 104px;
+  }
+
+  @media (min-width: 1728px) {
+    padding-left: 176px;
+    padding-right: 176px;
+  }
+
+  @media (min-width: 1872px) {
+    padding-left: 248px;
+    padding-right: 248px;
+  }
+}

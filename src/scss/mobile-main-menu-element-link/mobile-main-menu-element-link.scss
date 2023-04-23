@@ -1,0 +1,31 @@
+.mobile-main-menu-element-link {
+  font-family: "TT Lakes Regular", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: $blackColorText;
+
+  &:hover,
+  &:active {
+    font-family: "TT Lakes Regular", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $grayColorText;
+  }
+
+  &:hover::before,
+  &:active::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -24px;
+    background-color: $bgHighlight;
+    width: 4px;
+    height: 32px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
+}

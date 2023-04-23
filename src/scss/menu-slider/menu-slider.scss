@@ -1,0 +1,12 @@
+.menu-slider {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+
+  @media (min-width: 1440px) {
+    display: flex;
+    justify-content: flex-start;
+    height: 80px;
+  }
+}

@@ -1,0 +1,21 @@
+.email {
+  margin-top: 16px;
+  margin-left: 8.1%;
+  height: 24px;
+
+  &__email-link {
+    font-family: "TT Lakes Regular", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $blackColorText;
+    transition-property: color;
+    transition-duration: 0.5s;
+
+    &:hover,
+    &:active {
+      color: $grayColorText;
+    }
+  }
+}

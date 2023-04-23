@@ -1,0 +1,31 @@
+.highlight {
+  width: 4px;
+  height: 40px;
+  background-color: $bgHighlight;
+  margin-right: 12px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .highlight {
+    width: 4px;
+    height: 40px;
+    background-color: $bgHighlight;
+    margin-right: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .highlight {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 3px;
+    height: 40px;
+    background-color: $bgHighlight;
+    borderradius: 20px;
+  }
+}

@@ -1,0 +1,13 @@
+.modal-container {
+  // display: none;
+  position: relative;
+  width: 0;
+
+  @media (min-width: 768px) {
+    width: 0;
+  }
+
+  @media (min-width: 1440px) {
+    width: 0;
+  }
+}

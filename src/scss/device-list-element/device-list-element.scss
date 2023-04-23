@@ -1,0 +1,7 @@
+.device-list-element {
+  margin-bottom: 16px;
+
+  @media (min-width: 1440px) {
+    margin-right: 32px;
+  }
+}

@@ -1,0 +1,42 @@
+.about-info {
+  display: flex;
+  flex-direction: column;
+  font-family: "TT Lakes Regular", "Arial", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: $blackColorText;
+}
+
+@media (min-width: 768px) {
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% - 432px);
+    font-family: "TT Lakes Regular", "Arial", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $blackColorText;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% - 604px);
+    margin-top: 9px;
+    font-family: "TT Lakes Regular", "Arial", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $blackColorText;
+  }
+}

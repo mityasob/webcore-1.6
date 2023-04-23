@@ -1,0 +1,16 @@
+.brands-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: $bgGray;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    // width: 768px;
+    min-height: 322px;
+    background-color: $bgGray;
+  }
+}

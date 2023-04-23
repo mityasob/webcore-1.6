@@ -1,0 +1,27 @@
+.get-commercial-order {
+  margin-top: 16px;
+
+  &__link {
+    font-family: "TT Lakes Medium", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: $blackColorText;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:after {
+      display: inline-block;
+      margin-left: 2px;
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-right: 2px solid $bgButton;
+      border-bottom: 2px solid $bgButton;
+      transform: rotate(-45deg);
+    }
+  }
+}
