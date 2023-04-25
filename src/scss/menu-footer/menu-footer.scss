@@ -1,0 +1,13 @@
+.menu-footer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2vh;
+
+  @media (min-height: 768px) {
+    margin-bottom: 3vh;
+  }
+
+  @media (min-height: 1024px) {
+    margin-bottom: 4vh;
+  }
+}
