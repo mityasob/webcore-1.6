@@ -1,0 +1,11 @@
+.main-menu {
+  margin-top: 24px;
+
+  @media (min-height: 1024px) {
+    margin-top: 50px;
+  }
+
+  @media (min-width: 1440px) {
+    margin-top: 38px;
+  }
+}
