@@ -1,0 +1,41 @@
+.service-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  width: 260px;
+  height: 200px;
+  border-radius: 6px;
+  background-color: $bgWhite;
+
+  &>div {
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: "TT Lakes Regular", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: $grayColorText;
+    opacity: 0.72;
+  }
+
+  &__description {
+    margin: 4px 0 0 0;
+    font-family: "TT Lakes Medium", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: $blackColorText;
+  }
+
+  &>.order-service {
+    right: 16px;
+    bottom: 16px;
+    width: 119px;
+  }
+}

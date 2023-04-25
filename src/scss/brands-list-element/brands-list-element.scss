@@ -1,0 +1,8 @@
+.brands-list-element {
+  margin-right: 3.125vw;
+  margin-bottom: 16px;
+
+  @media (min-width: 1440px) {
+    margin-right: 2.22vw;
+  }
+}

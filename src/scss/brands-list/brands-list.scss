@@ -1,0 +1,11 @@
+.brands-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 24px;
+
+  @media (min-width: 1440px) {
+    padding-left: 32px;
+  }
+}

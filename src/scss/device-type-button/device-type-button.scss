@@ -1,0 +1,33 @@
+.device-type-button {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bgWhite;
+  width: 240px;
+  height: 160px;
+  border: 1px solid $buttonBorder;
+  border-radius: 6px;
+  padding: 0;
+  transition-property: background-color;
+  transition-duration: 1s;
+
+  &:hover,
+  &:active {
+    background-color: $buttonBorder;
+    cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    width: 29.16vw;
+  }
+
+  @media (min-width: 1440px) {
+    width: 16.6vw;
+  }
+
+  &>.brand-circle-button {
+  	align-self: flex-end;
+  	margin-bottom: 16px;
+  }
+}
